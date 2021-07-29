@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    background-image: url('/Week1HW1/ocean.jpg');
+}
+

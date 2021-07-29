@@ -1,29 +1,44 @@
-const user = [
+const villains = [
 	{
-		name: "John Doe",
-		age: 52,
-		username: "jdoe",
+		name: "Darth Vader",
+
 	},
 	{
-		name: "Mark Doe",
-		age: 34,
-		username: "mdoe",
+		name: "Darth Maul",
+
 	},
 	{
-		name: "Henry Doe",
-		age: 23,
-		username: "hdoe",
+		name: "Emperor Palpatine",
+	
 	},
 	{
 		name: "Keri Doe",
-		age: 44,
-		username: "kdoe",
+	
 	},
 	{
 		name: "Martha Doe",
-		age: 18,
-		username: "mtdoe",
+	
 	},
 ];
 
-module.exports = user;
+const heroes = [
+	{
+		name: "Han Solo",
+		
+	},
+
+	{
+		name: "Luke S",
+		
+	},
+
+	{
+		name: "Chewie",
+		
+	},
+]
+
+module.exports = {
+	villains,
+	heroes,
+};
